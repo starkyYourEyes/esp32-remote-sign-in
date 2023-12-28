@@ -4,7 +4,7 @@
 ### 实现
 刚好前些日子在小黄鱼上看到了一个我去图书馆远程签到的软件，当即给他买了下来，很快，啊。但是呢，总的来说，很亏。因为需要两个移动设备才能签到成功，可咱现在没有 : <  
 > 这里简单介绍一下方法：
-> 1. `两个移动设备(平板or手机)`确保都打开蓝牙，其中一个下载BrightBeacon，苹果: appstore下载，安卓: [下载链接](https://app.brtbeacon.com/d/brightbeacon)
+> 1. `两个移动设备(平板or手机)`确保都打开蓝牙，其中一个下载BrightBeacon，苹果: appstore下载，安卓: [下载](https://app.brtbeacon.com/d/brightbeacon)
 > 2. 底部导航栏中间蓝色选项 -> 模拟Beacon -> 分别填入 UUID: FDA50693-A4E2-4FB1-AFCF-C6EB07647825, Major: 10199, Minor: 42474
 > 3. 用另一个设备进行蓝牙签到
 
