@@ -5,7 +5,7 @@
 刚好前些日子在小黄鱼上看到了一个我去图书馆远程签到的软件，当即给他买了下来，很快，啊。但是呢，总的来说，很亏。因为需要两个移动设备才能签到成功，可咱现在没有 : <  
 > 这里简单介绍一下方法：
 > 1. `两个移动设备`（平板or手机）确保都打开蓝牙，其中一个下载BrightBeacon，苹果: appstore下载，安卓: [下载链接](https://app.brtbeacon.com/d/brightbeacon)
-> 2. 底部导航栏中间蓝色的 -> 模拟Beacon -> 分别填入 UUID: FDA50693-A4E2-4FB1-AFCF-C6EB07647825, Major: 10199, Minor: 42474
+> 2. 底部导航栏中间蓝色选项 -> 模拟Beacon -> 分别填入 UUID: FDA50693-A4E2-4FB1-AFCF-C6EB07647825, Major: 10199, Minor: 42474
 > 3. 用另一个设备进行蓝牙签到
 
 刚好这两天又看到了一个关于esp32蓝牙模拟应用的视频([bilibili](https://www.bilibili.com/video/BV1E54y137r3/?spm_id_from=333.880.my_history.page.click&vd_source=946d91ef8e978d916f518f74017b6842))，于是去GitHub上面搜了一下，果然找到一个关于用[esp32模拟蓝牙签到](https://github.com/zanjie1999/dingBle/tree/master)的项目，京东上面一看，一个esp32的板子才二十来块钱，直接就给他拿下了。等了三天，板子到货了，直接拿去跟着GitHub的教程跑了一遍，可惜并没有达到预期效果。  
